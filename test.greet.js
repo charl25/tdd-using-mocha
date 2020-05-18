@@ -8,4 +8,8 @@ describe("the greet function", function(){
         assert.equal("Hello, Zola", greet("Zola"));
     });
 
+    it("should great Lihle with 'Hello, Lihle'",function(){
+        assert.equal("Hello, Lihle", greet("Lihle"));
+    });
+
 });
